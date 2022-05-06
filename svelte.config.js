@@ -23,7 +23,7 @@ const config = {
 					allow: ['./static/']
 				}
 			},
-			assetsInclude: ['./static']
+			assetsInclude: ['**/*.jpg']
 		}
 	}
 };
