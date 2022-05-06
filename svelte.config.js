@@ -23,7 +23,8 @@ const config = {
 					allow: ['./static/']
 				}
 			},
-			assetsInclude: ['**/*.jpg']
+			assetsInclude: ['**/*.jpg'],
+			publicDir: false
 		}
 	}
 };
