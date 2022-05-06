@@ -2,6 +2,7 @@
 	import { Icon, Menu, GlobeAlt, X } from 'svelte-hero-icons';
 	import { fly } from 'svelte/transition';
 	let isMenuOpen: boolean = false;
+	import Logo from '../../../static/logo.svg';
 </script>
 
 <header
@@ -9,7 +10,7 @@
 >
 	<div class="flex justify-center col-span-1 items-center">
 		<a class="cursor-pointer items-center" href="/">
-			<img src="../../../static/logo.svg" alt="" class="w-36 h-6" />
+			<img src={Logo} alt="" class="w-36 h-6" />
 		</a>
 	</div>
 	<div
