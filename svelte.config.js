@@ -22,7 +22,8 @@ const config = {
 				fs: {
 					allow: ['./static/']
 				}
-			}
+			},
+			assetsInclude: ['./static']
 		}
 	}
 };
