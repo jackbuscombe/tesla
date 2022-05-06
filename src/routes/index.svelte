@@ -11,8 +11,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section class="h-[100vh]">
-	<!-- Content -->
+<section class="relative">
 	<Section
 		title="Model 3"
 		description="Order Online for Touchless Delivery"
