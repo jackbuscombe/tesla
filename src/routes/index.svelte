@@ -3,7 +3,7 @@
 </script>
 
 <script lang="ts">
-	import Counter from '$lib/Counter.svelte';
+	import Section from '$lib/components/Section.svelte';
 </script>
 
 <svelte:head>
@@ -11,50 +11,48 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
+<section class="h-[100vh]">
+	<!-- Content -->
+	<Section
+		title="Model 3"
+		description="Order Online for Touchless Delivery"
+		bgImage="bg-model-3"
+		leftBtnText="CUSTOM ORDER"
+		rightBtnText="EXISTING INVENTORY"
+		arrow
+	/>
+	<Section
+		title="Solar and Powerwall"
+		description="Rebates are now available in selected states on Powerwall and solar."
+		bgImage="bg-solar-panel"
+		leftBtnText="LEARN MORE"
+		subTag="Rebates are now available in selected states on Powerwall and solar."
+	/>
+	<Section
+		title="Model Y"
+		description="Order Online for Touchless Delivery"
+		bgImage="bg-model-y"
+		leftBtnText="LEARN MORE"
+		rightBtnText="STAY UPDATED"
+	/>
+	<Section
+		title="Model S"
+		description="Order Online for Touchless Delivery"
+		bgImage="bg-model-s"
+		leftBtnText="CUSTOM ORDER"
+		rightBtnText="LEARN MORE"
+	/>
+	<Section
+		title="Model X"
+		description="Order Online for Touchless Delivery"
+		bgImage="bg-model-x"
+		leftBtnText="CUSTOM ORDER"
+		rightBtnText="LEARN MORE"
+	/>
+	<Section
+		title="Accessories"
+		description="Order Online for Touchless Delivery"
+		bgImage="bg-accessories"
+		leftBtnText="SHOP NOW"
+	/>
 </section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
