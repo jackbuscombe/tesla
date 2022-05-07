@@ -22,9 +22,7 @@ const config = {
 				fs: {
 					allow: ['./static/']
 				}
-			},
-			assetsInclude: ['**/*.jpg'],
-			publicDir: false
+			}
 		}
 	}
 };
