@@ -6,7 +6,7 @@
 
 <Header />
 
-<main class="w-full">
+<main class="w-full max-w-full">
 	<slot />
 </main>
 

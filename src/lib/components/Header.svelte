@@ -6,11 +6,11 @@
 </script>
 
 <header
-	class="fixed top-0 w-full min-h-[60px] grid grid-cols-3 justify-between bg-transparent p-8 items-center font-semibold text-xl z-50"
+	class="fixed top-0 w-full max-w-full min-h-[60px] grid grid-cols-3 justify-between bg-transparent p-8 items-center font-semibold z-50 text-sm lg:text-base"
 >
 	<div class="flex justify-center col-span-1 items-center">
 		<a class="cursor-pointer items-center" href="/">
-			<img src={Logo} alt="" class="w-36 h-6" />
+			<img src={Logo} alt="" class="w-32 h-4" />
 		</a>
 	</div>
 	<div
@@ -26,14 +26,14 @@
 		<a href="/">Shop</a>
 		<a href="/">Tesla Account</a>
 		<div on:click={() => (isMenuOpen = true)}>
-			<Icon src={Menu} class="h-8 w-8 cursor-pointer" />
+			<Icon src={Menu} class="h-5 w-5 cursor-pointer" />
 		</div>
 	</div>
 
 	{#if isMenuOpen}
 		<div
 			transition:fly={{ x: window.innerWidth, duration: 600 }}
-			class="fixed top-0 bottom-0 right-0 bg-white w-[350px] z-50 text-gray-600 overflow-y-scroll scrollbar-hide list-none p-8 flex flex-col"
+			class="fixed max-w-screen-sm top-0 bottom-0 right-0 bg-white w-[350px] z-50 text-gray-600 overflow-y-scroll scrollbar-hide list-none p-8 flex flex-col"
 		>
 			<div
 				on:click={() => (isMenuOpen = false)}

@@ -21,8 +21,8 @@
 		arrow
 	/>
 	<Section
-		title="Solar and Powerwall"
-		description="Rebates are now available in selected states on Powerwall and solar."
+		title="Solar Panels"
+		description="Lowest Cost Solar Panels in America"
 		bgImage="bg-[url('/static/solar-panel.jpg')]"
 		leftBtnText="LEARN MORE"
 		subTag="Rebates are now available in selected states on Powerwall and solar."
@@ -46,6 +46,13 @@
 		description="Order Online for Touchless Delivery"
 		bgImage="bg-[url('/static/model-x.jpg')]"
 		leftBtnText="CUSTOM ORDER"
+		rightBtnText="LEARN MORE"
+	/>
+	<Section
+		title="Solar Roof"
+		description="Produce Clean Energy From Your Roof"
+		bgImage="bg-[url('/static/solar-roof.jpg')]"
+		leftBtnText="ORDER NOW"
 		rightBtnText="LEARN MORE"
 	/>
 	<Section
