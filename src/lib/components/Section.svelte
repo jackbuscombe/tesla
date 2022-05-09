@@ -18,7 +18,7 @@
 </script>
 
 <div
-	class={`flex relative flex-col items-center w-full h-screen ${bgImage} relative bg-cover bg-center bg-no-repeat snap-start`}
+	class={`flex relative flex-col items-center w-full h-screen ${bgImage} relative bg-cover bg-center bg-no-repeat snap-start snap-always`}
 >
 	<IntersectionObserver once element={top} bind:intersecting={topVisible} threshold={0.5}>
 		<div class="absolute top-1/4" bind:this={top} />
