@@ -2,7 +2,7 @@
 </script>
 
 <footer
-	class="relative bottom-6 flex flex-1 w-full max-w-full justify-center space-x-6 text-gray-600 text-xs lg:text-sm font-semibold bg-transparent"
+	class=" flex flex-col space-y-1 relative bottom-8 flex-1 w-full max-w-full lg:flex-row justify-center items-center text-center lg:space-x-6 text-gray-600 text-xs lg:text-sm font-semibold bg-white snap-start"
 >
 	<a href="/">Tesla © 2022</a>
 	<a href="/">Privacy & Legal</a>

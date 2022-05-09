@@ -4,14 +4,15 @@
 
 <script lang="ts">
 	import Section from '$lib/components/Section.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Tesla</title>
+	<meta name="description" content="Tesla Demo Website" />
 </svelte:head>
 
-<section class="relative">
+<section class="overflow-y-scroll h-screen snap-mandatory snap-y">
 	<Section
 		title="Model 3"
 		description="Order Online for Touchless Delivery"
@@ -61,4 +62,5 @@
 		bgImage="bg-[url('/static/accessories.jpg')]"
 		leftBtnText="SHOP NOW"
 	/>
+	<Footer />
 </section>
